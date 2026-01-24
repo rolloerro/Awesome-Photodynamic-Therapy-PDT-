@@ -126,6 +126,7 @@ Urology PDT Master Class
 Video tutorials, webinars, and hands-on demonstrations from experts.
 
 Research and Conference Highlights
+
 🧪 IPA World Congress 2025 — Shanghai, China
 19th International Photodynamic Association World Congress (IPA 2025): global conference on PDT, June 10–16, 2025, Shanghai. (official site)
 
@@ -143,6 +144,7 @@ This repository collects **tools, bots, calculators, tutorials, and master class
 ## Bots
 
 - [FDTcalc05_bot](bots/fdtcalc05_bot/fdtcalc05_bot.py) — Universal PDT calculator for cervical, endoscopy, skin, and vulvar modules.
+- [PDT Clinical Assistant Bot](https://github.com/rolloerro/PDT-Clinical-Assistant-Bot) — Clinical support and reference for PDT procedures.
 - [RADAPHARMA Bot](bots/radafarma_bot) — Educational & reference bot for PDT protocols.
 - [Gynecology Bot](bots/gynecology_bot) — PDT guidance for gynecological procedures.
 - [Urology Bot](bots/urology_bot) — PDT endoscopy & urology support bot.
