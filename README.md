@@ -134,6 +134,68 @@ Key Topics: Photosensitizers, dosimetry, clinical applications, nanotechnology, 
 Notable Speakers: Prof. Tayyaba Hasan, Prof. Xiuli Wang.
 
 Awards 2025: Recognizing contributions in clinical and translational PDT.
+# Awesome Photodynamic Therapy (PDT)
+
+This repository collects **tools, bots, calculators, tutorials, and master classes** for Photodynamic Therapy (PDT) applications across dermatology, gynecology, urology, and clinical practice.
+
+---
+
+## Bots
+
+- [FDTcalc05_bot](bots/fdtcalc05_bot/fdtcalc05_bot.py) — Universal PDT calculator for cervical, endoscopy, skin, and vulvar modules.
+- [RADAPHARMA Bot](bots/radafarma_bot) — Educational & reference bot for PDT protocols.
+- [Gynecology Bot](bots/gynecology_bot) — PDT guidance for gynecological procedures.
+- [Urology Bot](bots/urology_bot) — PDT endoscopy & urology support bot.
+- [Assessment Bot](bots/assessment_bot) — Calculates dose, exposure, and K-factors.
+- [Basalioma Bot](bots/basalioma_bot) — Focused on basal cell carcinoma PDT.
+- [Practice Bot](bots/practice_bot) — Interactive exercises for hands-on learning.
+- [Procedure Bot](bots/procedure_bot) — Step-by-step PDT procedure guide.
+- [Clinical Assistant Bot](bots/clinical_assistant_bot) — Clinical PDT assistance and reference.
+- [PDT Manual Bot](bots/pdt_manual_bot) — Reference bot for PDT educational materials.
+
+- **Core Module:** [pdt-core](bots/pdt-core) — shared library for calculations and utilities used by all bots.
+
+---
+
+## Master Classes and Tutorials
+
+- **Dermatology PDT Master Class**  
+  Step-by-step tutorials and practical sessions for skin-related PDT procedures. Includes guidance on basal cell carcinoma, dosimetry, and micro/macrolens techniques.
+
+- **Gynecology PDT Master Class**  
+  Covers cervical and vulvar PDT applications, diffuser selection, laser settings, dose calculations, and clinical protocols.  
+
+- **Urology PDT Master Class**  
+  Focused on endoscopic PDT procedures in urology. Includes guidance on laser power, diffuser lengths, and distance considerations.  
+
+- **Clinical Simulation & Practice Modules**  
+  Interactive exercises with FDTcalc05_bot for hands-on learning of dose calculation, exposure time, and K-factor estimations.
+
+- **ShangHai PDT Conference 2025 Highlights** 🧪  
+  - **Event:** 19th International Photodynamic Association World Congress (IPA 2025), June 10–16, Shanghai, China  
+  - **Topics Covered:** Photosensitizers, dosimetry, clinical applications, nanotechnology, antimicrobial PDT  
+  - **Speakers:** Prof. Tayyaba Hasan, Prof. Xiuli Wang  
+  - **Awards & Innovations 2025:** Recognizing contributions in clinical and translational PDT  
+  - [Official Conference Site](https://www.internationalphotodynamic.com/other-pdt-events-1/2025/6/10/19th-international-photodynamic-association-world-congress?utm_source=chatgpt.com)  
+
+> ⚠️ PDFs and slides from the conference are not included due to copyright. Publicly available resources can be linked or stored in a separate repository.
+
+---
+
+## Installation
+
+```bash
+# Clone repo
+git clone https://github.com/rolloerro/Awesome-Photodynamic-Therapy-PDT-.git
+cd Awesome-Photodynamic-Therapy-PDT-
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+
+# Install bot dependencies
+pip install -r bots/fdtcalc05_bot/requirements.txt
 
 📄 Key Publications
 Clinical Study on PDT for Basal Cell Carcinoma (2024)
@@ -143,6 +205,23 @@ Photodynamic Therapy for Gynecological Conditions
 Antimicrobial PDT Applications
 
 PDT Dosimetry Innovations
+
+Running FDTcalc05_bot
+# Copy your Telegram token
+cp bots/fdtcalc05_bot/.env.example bots/fdtcalc05_bot/.env
+
+# Run bot
+python3 bots/fdtcalc05_bot/fdtcalc05_bot.py
+
+Make sure pdt-core folder is in bots/ for local imports.
+
+Contributing
+
+Add your own modules, bots, or educational materials.
+
+Follow the folder structure: bots/<bot_name> or docs/<material_name>.
+
+Pull requests and issues are welcome.
 
 ⚠️ PDFs are linked only if publicly accessible. Personal PDFs / slides can be added to a separate repo: awesome-pdt-resources.
 
