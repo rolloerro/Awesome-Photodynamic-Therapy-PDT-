@@ -1,4 +1,4 @@
-# Awesome Photodynamic Therapy (PDT)
+
 
 A curated list of resources, tools, bots, protocols, and research papers on photodynamic therapy (PDT) — from theory and clinical practice to digital tools and conference highlights.
 
@@ -6,7 +6,7 @@ A curated list of resources, tools, bots, protocols, and research papers on phot
 - [Overview](#overview)
 - [Bots & Calculators](#bots--calculators)
 - [Clinical Guidelines and Protocols](#clinical-guidelines-and-protocols)
-- [Equipment and Dosage](#equipment-and-dosage)
+- [Equipment and Consumables](#equipment-and-consumables)
 - [Master Classes and Tutorials](#master-classes-and-tutorials)
 - [Research and Conference Highlights](#research-and-conference-highlights)
 - [Contributing](#contributing)
@@ -15,7 +15,7 @@ A curated list of resources, tools, bots, protocols, and research papers on phot
 ---
 
 ## Overview
-Photodynamic therapy (PDT) is a minimally invasive treatment using photosensitizers and light to target diseased cells. This list covers theoretical knowledge, clinical applications, digital tools, bots, and community resources.
+Photodynamic therapy (PDT) is a minimally invasive treatment using photosensitizers and light to target diseased cells. This repository covers theoretical knowledge, clinical applications, digital tools, bots, and community resources.
 
 ---
 
@@ -23,164 +23,108 @@ Photodynamic therapy (PDT) is a minimally invasive treatment using photosensitiz
 
 ### 1️⃣ FDTcalc05_bot
 **Type:** Telegram Bot  
-**Description:** Multi‑module PDT calculator (Cervical, Endoscopy/Urology, Skin, Cervix/Vulva/Vagina). Step‑by‑step parameter selection: diffuser length, power, distance, dose. Calculates K-factor, exposure time, total energy, recommended power density. Engineered for research and educational purposes — clinical use only per protocol.  
+**Description:** Multi‑module PDT calculator (Cervical, Endoscopy/Urology, Skin, Cervix/Vulva/Vagina). Step‑by-step parameter selection: diffuser length, power, distance, dose. Calculates K-factor, exposure time, and total energy.  
 **GitHub:** [FDTcalc05_bot](https://github.com/rolloerro/fdtcalc05_bot)  
-**Example:**
-```python
-# Start interaction in Telegram
-# /start → select module → enter parameters
-# Bot returns K-factor, exposure time, total energy
-2️⃣ pdt-core
-Type: Python Module
-Description: Core PDT calculator module used by bots to compute K-factor, dosage and exposure time.
-GitHub: pdt-core
-Example:
 
-from pdt.calculators import calculate_cervix_fdt
-result = calculate_cervix_fdt(length_cm=2.5, power_mw=150, dose_j_cm2=50)
-print(result)
-3️⃣ Radapharma Bot
-Type: Telegram Bot
-Description: Provides PDT session assistance and clinical references under Radapharma umbrella.
-GitHub: [fill_in_real_URL]
-Example:
+### 2️⃣ pdt-core
+**Type:** Python Module  
+**Description:** Core PDT calculator module used by bots for computing K-factor, dosage, and exposure time.  
+**GitHub:** [pdt-core](bots/pdt-core)  
 
-# /start → choose clinical guidance → bot returns protocols or links
-4️⃣ Gynecology PDT Bot
-Type: Telegram Bot
-Description: PDT calculator and guidance for gynecological indications.
-GitHub: [fill_in_real_URL]
-Example:
+### 3️⃣ Radapharma Bot
+**Type:** Telegram Bot  
+**Description:** Provides PDT session assistance and clinical references.  
+**GitHub:** [fill_in_real_URL]  
 
-# /start → select "Gynecology" → input parameters
-5️⃣ Urology PDT Bot
-Type: Telegram Bot
-Description: Urological PDT parameters and calculators.
-GitHub: [fill_in_real_URL]
-Example:
+### 4️⃣ Gynecology PDT Bot
+**Type:** Telegram Bot  
+**Description:** PDT guidance for gynecological procedures.  
+**GitHub:** [fill_in_real_URL]  
 
-# /start → choose "Urology" → input data
-6️⃣ Assessment Bot
-Type: Telegram Bot
-Description: Tracks PDT outcomes and assessments for clinical research logging.
-GitHub: [fill_in_real_URL]
-Example:
+### 5️⃣ Urology PDT Bot
+**Type:** Telegram Bot  
+**Description:** Endoscopic and urological PDT support.  
+**GitHub:** [fill_in_real_URL]  
 
-# /start → log treatment → bot saves summary/outcome
-7️⃣ Basaloma PDT Bot
-Type: Telegram Bot
-Description: PDT support tool for basal cell carcinoma and dermatology workflows.
-GitHub: [fill_in_real_URL]
-Example:
+### 6️⃣ Assessment Bot
+**Type:** Telegram Bot  
+**Description:** Calculates dose, exposure, and K-factors.  
+**GitHub:** [fill_in_real_URL]  
 
-# /start → choose "Basaloma" → bot calculates exposure & protocols
-8️⃣ Practice Bot
-Type: Telegram Bot
-Description: Practical PDT tutorial / step‑by‑step state machine for clinical learners.
-GitHub: [fill_in_real_URL]
-Example:
+### 7️⃣ Basalioma Bot
+**Type:** Telegram Bot  
+**Description:** Focused on basal cell carcinoma PDT.  
+**GitHub:** [fill_in_real_URL]  
 
-# /start → choose practice module → walk-through tutorial
-9️⃣ Procedure Bot
-Type: Telegram Bot
-Description: Guides through PDT procedure steps with prompts and checks.
-GitHub: [fill_in_real_URL]
-Example:
+### 8️⃣ Practice Bot
+**Type:** Telegram Bot  
+**Description:** Interactive exercises for hands-on learning.  
+**GitHub:** [fill_in_real_URL]  
 
-# /start → choose procedure type → bot guides actions
-🔟 Clinical Assistant Bot
-Type: Telegram Bot
-Description: Combines reference protocols and decision support for PDT clinics.
-GitHub: [fill_in_real_URL]
-Example:
+### 9️⃣ Procedure Bot
+**Type:** Telegram Bot  
+**Description:** Step-by-step PDT procedure guide.  
+**GitHub:** [fill_in_real_URL]  
 
-# /start → choose clinical assistant → bot offers structured guidance
-1️⃣1️⃣ FDT Manual Bot
-Type: Telegram Bot
-Description: Offers educational PDT manuals, PDFs (linked), and quick‑reference cards.
-GitHub: [fill_in_real_URL]
-Example:
+### 🔟 Clinical Assistant Bot
+**Type:** Telegram Bot  
+**Description:** Combines reference protocols and decision support for PDT clinics.  
+**GitHub:** [fill_in_real_URL]  
 
-# /start → choose manual → bot returns link or summary
-Clinical Guidelines and Protocols
-Protocols for urology, gynecology, dermatology, and oncology applications.
-
-Step-by-step treatment algorithms for specific conditions.
-
-Evidence-based recommendations from peer-reviewed studies.
-
-Equipment and Dosage
-Overview of lasers, light sources, and photosensitizers.
-
-Recommended dosages and treatment planning guides.
-
-Integration with bots for automated calculations and patient management.
-
-Master Classes and Tutorials
-Dermatology PDT Master Class
-
-Gynecology PDT Master Class
-
-Urology PDT Master Class
-
-Video tutorials, webinars, and hands-on demonstrations from experts.
-
-Research and Conference Highlights
-
-🧪 IPA World Congress 2025 — Shanghai, China
-19th International Photodynamic Association World Congress (IPA 2025): global conference on PDT, June 10–16, 2025, Shanghai. (official site)
-
-Key Topics: Photosensitizers, dosimetry, clinical applications, nanotechnology, antimicrobial PDT.
-
-Notable Speakers: Prof. Tayyaba Hasan, Prof. Xiuli Wang.
-
-Awards 2025: Recognizing contributions in clinical and translational PDT.
-# Awesome Photodynamic Therapy (PDT)
-
-This repository collects **tools, bots, calculators, tutorials, and master classes** for Photodynamic Therapy (PDT) applications across dermatology, gynecology, urology, and clinical practice.
+### 1️⃣1️⃣ FDT Manual Bot
+**Type:** Telegram Bot  
+**Description:** Educational PDT manuals, PDFs (linked), and quick-reference cards.  
+**GitHub:** [fill_in_real_URL]  
 
 ---
 
-## Bots
+## Clinical Guidelines and Protocols
+- Protocols for urology, gynecology, dermatology, and oncology applications.  
+- Step-by-step treatment algorithms for specific conditions.  
+- Evidence-based recommendations from peer-reviewed studies.
 
-- [FDTcalc05_bot](bots/fdtcalc05_bot/fdtcalc05_bot.py) — Universal PDT calculator for cervical, endoscopy, skin, and vulvar modules.
-- [PDT Clinical Assistant Bot](https://github.com/rolloerro/PDT-Clinical-Assistant-Bot) — Clinical support and reference for PDT procedures.
-- [RADAPHARMA Bot](bots/radafarma_bot) — Educational & reference bot for PDT protocols.
-- [Gynecology Bot](bots/gynecology_bot) — PDT guidance for gynecological procedures.
-- [Urology Bot](bots/urology_bot) — PDT endoscopy & urology support bot.
-- [Assessment Bot](bots/assessment_bot) — Calculates dose, exposure, and K-factors.
-- [Basalioma Bot](bots/basalioma_bot) — Focused on basal cell carcinoma PDT.
-- [Practice Bot](bots/practice_bot) — Interactive exercises for hands-on learning.
-- [Procedure Bot](bots/procedure_bot) — Step-by-step PDT procedure guide.
-- [Clinical Assistant Bot](bots/clinical_assistant_bot) — Clinical PDT assistance and reference.
-- [PDT Manual Bot](bots/pdt_manual_bot) — Reference bot for PDT educational materials.
+---
 
-- **Core Module:** [pdt-core](bots/pdt-core) — shared library for calculations and utilities used by all bots.
+## Equipment and Consumables
+
+### Lasers and Accessories: ЛАХТА‑МИЛОН
+
+| Category | Model / Type | Wavelength | Power | Mode | Application |
+|----------|--------------|------------|-------|------|------------|
+| Laser | ЛАХТА‑МИЛОН Standard | 635–675 nm | 0.6–4 W | Continuous / Pulsed | General PDT, dermatology, oncology |
+| Light Guide | Cylindrical Diffuser | — | — | — | Uniform illumination for treatment area |
+| Light Guide | Endoscopic/Urology Guide | — | — | — | Cervical canal, urinary tract, endoscopy |
+| Accessories | Protective glasses, holders | — | — | — | Safety for staff and patients |
+
+> ℹ️ Light guide selection depends on target diameter and length (e.g., 400–600 µm for endoscopic procedures).
 
 ---
 
 ## Master Classes and Tutorials
-
 - **Dermatology PDT Master Class**  
-  Step-by-step tutorials and practical sessions for skin-related PDT procedures. Includes guidance on basal cell carcinoma, dosimetry, and micro/macrolens techniques.
+  Step-by-step tutorials for skin PDT, basal cell carcinoma, micro/macrolens techniques.  
 
 - **Gynecology PDT Master Class**  
-  Covers cervical and vulvar PDT applications, diffuser selection, laser settings, dose calculations, and clinical protocols.  
+  Cervical and vulvar PDT: diffuser selection, laser settings, dose calculation, clinical protocols.  
 
 - **Urology PDT Master Class**  
-  Focused on endoscopic PDT procedures in urology. Includes guidance on laser power, diffuser lengths, and distance considerations.  
+  Endoscopic PDT: laser power, diffuser lengths, distance calculations.  
 
 - **Clinical Simulation & Practice Modules**  
-  Interactive exercises with FDTcalc05_bot for hands-on learning of dose calculation, exposure time, and K-factor estimations.
+  Hands-on exercises with FDTcalc05_bot for dose, exposure time, and K-factor calculations.  
 
-- **ShangHai PDT Conference 2025 Highlights** 🧪  
-  - **Event:** 19th International Photodynamic Association World Congress (IPA 2025), June 10–16, Shanghai, China  
-  - **Topics Covered:** Photosensitizers, dosimetry, clinical applications, nanotechnology, antimicrobial PDT  
-  - **Speakers:** Prof. Tayyaba Hasan, Prof. Xiuli Wang  
-  - **Awards & Innovations 2025:** Recognizing contributions in clinical and translational PDT  
-  - [Official Conference Site](https://www.internationalphotodynamic.com/other-pdt-events-1/2025/6/10/19th-international-photodynamic-association-world-congress?utm_source=chatgpt.com)  
+---
 
-> ⚠️ PDFs and slides from the conference are not included due to copyright. Publicly available resources can be linked or stored in a separate repository.
+## Research and Conference Highlights
+
+### ShangHai PDT Conference 2025 🧪
+- **Event:** 19th International Photodynamic Association World Congress (IPA 2025), June 10–16, Shanghai, China  
+- **Topics Covered:** Photosensitizers, dosimetry, clinical applications, nanotechnology, antimicrobial PDT  
+- **Speakers:** Prof. Tayyaba Hasan, Prof. Xiuli Wang  
+- **Awards 2025:** Recognizing contributions in clinical and translational PDT  
+- [Official Conference Site](https://www.internationalphotodynamic.com/other-pdt-events-1/2025/6/10/19th-international-photodynamic-association-world-congress?utm_source=chatgpt.com)  
+
+> ⚠️ PDFs and slides from the conference are not included due to copyright. Publicly available resources can be linked or stored in a separate `docs` folder.
 
 ---
 
@@ -199,70 +143,17 @@ venv\Scripts\activate     # Windows
 # Install bot dependencies
 pip install -r bots/fdtcalc05_bot/requirements.txt
 
-📄 Key Publications
-Clinical Study on PDT for Basal Cell Carcinoma (2024)
-
-Photodynamic Therapy for Gynecological Conditions
-
-Antimicrobial PDT Applications
-
-PDT Dosimetry Innovations
-
-Running FDTcalc05_bot
-# Copy your Telegram token
+# Copy Telegram token
 cp bots/fdtcalc05_bot/.env.example bots/fdtcalc05_bot/.env
 
-# Run bot
+# Run FDTcalc05_bot
 python3 bots/fdtcalc05_bot/fdtcalc05_bot.py
-
-Make sure pdt-core folder is in bots/ for local imports.
-
 Contributing
-
 Add your own modules, bots, or educational materials.
 
-Follow the folder structure: bots/<bot_name> or docs/<material_name>.
+Follow folder structure: bots/<bot_name> or docs/<material_name>.
 
 Pull requests and issues are welcome.
-## Мастер-классы и обучающие материалы
-
-- **Dermatology PDT Master Class**  
-  Практические занятия и пошаговые руководства по ФДТ кожи. Включает работу с базально-клеточной карциномой, дозиметрию, микро- и макролинзы.
-
-- **Gynecology PDT Master Class**  
-  ФДТ шейки матки и вульвы: выбор диффузора, мощность лазера, расчет дозы, клинические протоколы.
-
-- **Urology PDT Master Class**  
-  Эндоскопическая ФДТ: подбор мощности лазера, длины диффузора, расстояния до опухоли.
-
-- **Практика с FDTcalc05_bot**  
-  Интерактивные упражнения: расчет дозы, времени экспозиции и коэффициента K.
-
----
-
-## Основные моменты исследований и конференции
-
-- **ShangHai PDT Conference 2025 Highlights** 🧪  
-  - **Событие:** 19th International Photodynamic Association World Congress (IPA 2025), 10–16 июня, Шанхай, Китай  
-  - **Темы:** фотосенсибилизаторы, дозиметрия, клиническое применение, нанотехнологии, антимикробная ФДТ  
-  - **Спикеры:** Prof. Tayyaba Hasan, Prof. Xiuli Wang  
-  - **Инновации 2025:** признание лучших клинических и трансляционных исследований  
-  - [Официальный сайт конференции](https://www.internationalphotodynamic.com/other-pdt-events-1/2025/6/10/19th-international-photodynamic-association-world-congress?utm_source=chatgpt.com)  
-
-> ⚠️ PDF-материалы и слайды конференции не включены из-за авторских прав. Публичные материалы можно хранить отдельно в папке `docs` или ссылаться на них.
-
-⚠️ PDFs are linked only if publicly accessible. Personal PDFs / slides can be added to a separate repo: awesome-pdt-resources.
-
-Contributing
-We welcome contributions! Please follow these guidelines:
-
-Use Markdown format.
-
-Include a short description and link.
-
-Submit PRs for new bots, tools, studies, or tutorials.
-
-Ensure resources are open-access or link to official publications.
 
 License
 MIT License
