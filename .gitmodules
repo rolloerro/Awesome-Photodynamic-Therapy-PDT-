@@ -1,0 +1,3 @@
+[submodule "bots/pdt-core"]
+	path = bots/pdt-core
+	url = https://github.com/rolloerro/pdt-core.git
