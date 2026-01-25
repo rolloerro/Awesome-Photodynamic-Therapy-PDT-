@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="assets/pdt-banner.png" alt="Photodynamic Therapy (PDT)" width="100%">
+</p>
+
+<p align="center">
+  <em>Photodynamic Therapy — light-based technologies at the forefront of modern medicine</em>
+</p>
 
 
 A curated list of resources, tools, bots, protocols, and research papers on photodynamic therapy (PDT) — from theory and clinical practice to digital tools and conference highlights.
