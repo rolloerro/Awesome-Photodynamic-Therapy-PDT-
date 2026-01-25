@@ -19,12 +19,35 @@ A curated list of resources, tools, bots, protocols, and research papers on phot
 - [Contributing](#contributing)
 - [License](#license)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/PDT-Photodynamic_Therapy-8A2BE2?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Medicine-Clinical-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Telegram-Bots-26A5E4?style=for-the-badge&logo=telegram">
+  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Awesome-PDT-success?style=for-the-badge">
+</p>
+
 ---
 
 ## Overview
 Photodynamic therapy (PDT) is a minimally invasive treatment using photosensitizers and light to target diseased cells. This repository covers theoretical knowledge, clinical applications, digital tools, bots, and community resources.
 
 ---
+## 🧬 Photodynamic Therapy Mechanism
+
+<p align="center">
+  <strong>Photosensitizer</strong> 🧪  
+  <br>⬇️<br>
+  <strong>Light (Laser)</strong> 🔦  
+  <br>⬇️<br>
+  <strong>Reactive Oxygen Species (ROS)</strong> ⚛️  
+  <br>⬇️<br>
+  <strong>Target Cell Death</strong> ☠️
+</p>
+
+<p align="center">
+  <em>Light-activated photosensitizers generate reactive oxygen species leading to selective destruction of pathological tissues.</em>
+</p>
 
 ## Bots & Calculators
 
@@ -121,6 +144,25 @@ Photodynamic therapy (PDT) is a minimally invasive treatment using photosensitiz
   Hands-on exercises with FDTcalc05_bot for dose, exposure time, and K-factor calculations.  
 
 ---
+## 🧭 Project Roadmap
+
+### ✅ v1 — Bots & Calculators (Current)
+- Telegram PDT calculators (FDTcalc05_bot)
+- Clinical Assistant Bot
+- Modular `pdt-core`
+- Dosimetry & exposure calculations
+
+### 🚀 v2 — Applications
+- Web-based PDT calculator
+- Mobile apps (Android / iOS)
+- Unified clinical dashboards
+- Patient-friendly interfaces
+
+### 🧠 v3 — Wearables & AI
+- Smartwatch integration (HR, SpO₂, respiration)
+- AI-assisted treatment planning
+- ML-based outcome prediction
+- Digital therapeutic companions (Siri / Alice / Voice AI)
 
 ## Research and Conference Highlights
 
