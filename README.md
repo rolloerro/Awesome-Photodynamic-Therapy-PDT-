@@ -6,6 +6,13 @@
   <em>Photodynamic Therapy — light-based technologies at the forefront of modern medicine</em>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/PDT-Photodynamic_Therapy-8A2BE2?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Medicine-Clinical-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Telegram-Bots-26A5E4?style=for-the-badge&logo=telegram">
+  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Awesome-PDT-success?style=for-the-badge">
+</p>
 
 A curated list of resources, tools, bots, protocols, and research papers on photodynamic therapy (PDT) — from theory and clinical practice to digital tools and conference highlights.
 
@@ -18,14 +25,6 @@ A curated list of resources, tools, bots, protocols, and research papers on phot
 - [Research and Conference Highlights](#research-and-conference-highlights)
 - [Contributing](#contributing)
 - [License](#license)
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PDT-Photodynamic_Therapy-8A2BE2?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Medicine-Clinical-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Telegram-Bots-26A5E4?style=for-the-badge&logo=telegram">
-  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Awesome-PDT-success?style=for-the-badge">
-</p>
 
 ---
 
