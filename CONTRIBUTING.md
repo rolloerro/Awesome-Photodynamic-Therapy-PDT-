@@ -168,13 +168,3 @@ Thank you for being part of this.
 
 —
 Awesome Photodynamic Therapy (PDT) Team
-
-
----
-
-## Что дальше можем сделать (по желанию)
-
-- шаблон `ISSUE_TEMPLATE.md`
-- шаблон `PULL_REQUEST_TEMPLATE.md`
-- список labels (я прям дам названия)
-- Project Board (To do / In Progress / Review / Merged)
