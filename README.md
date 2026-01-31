@@ -1,3 +1,19 @@
+<p align="center">
+  <img src="assets/pdt-banner.png" alt="Photodynamic Therapy (PDT)" width="100%">
+</p>
+
+<p align="center">
+  <em>Photodynamic Therapy — light-based technologies at the forefront of modern medicine</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PDT-Photodynamic_Therapy-8A2BE2?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Medicine-Clinical-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Telegram-Bots-26A5E4?style=for-the-badge&logo=telegram">
+  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Awesome-PDT-success?style=for-the-badge">
+</p>
+
 # 🌟 Awesome Photodynamic Therapy (PDT)
 
 ![PDT](./assets/pdt-cover.png)
