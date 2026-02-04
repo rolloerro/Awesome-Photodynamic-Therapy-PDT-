@@ -119,6 +119,11 @@ basics → основы и теория ФДТ
 - `protocols/` — contains medical algorithms, protocols, and reference guides.
 - `docs/` — additional documentation, guides, and references.
 
+## Setup / Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/rolloerro/Awesome-Photodynamic-Therapy-PDT-.git
 
 
 ## ⚠️ Дисклеймер
