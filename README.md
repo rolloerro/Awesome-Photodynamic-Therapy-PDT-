@@ -112,6 +112,15 @@ basics → основы и теория ФДТ
 
 ---
 
+## Project Structure
+
+- `resources/` — contains media files, images, and other therapy resources.
+- `bots/` — contains bot scripts and modules for FDT and other automation.
+- `protocols/` — contains medical algorithms, protocols, and reference guides.
+- `docs/` — additional documentation, guides, and references.
+
+
+
 ## ⚠️ Дисклеймер
 
 Материалы проекта:
