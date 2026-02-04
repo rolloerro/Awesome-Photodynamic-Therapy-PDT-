@@ -119,6 +119,26 @@ basics → основы и теория ФДТ
 - `protocols/` — contains medical algorithms, protocols, and reference guides.
 - `docs/` — additional documentation, guides, and references.
 
+## Setup / Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/rolloerro/Awesome-Photodynamic-Therapy-PDT-.git
+
+2. Create and activate a virtual environment:
+
+python3 -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Window 
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+
+4. Create a .env file and add necessary tokens/keys.
+5. Run the bot:
+
+python bot.py
 
 
 ## ⚠️ Дисклеймер

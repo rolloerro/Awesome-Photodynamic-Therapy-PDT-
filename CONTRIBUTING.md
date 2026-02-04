@@ -61,12 +61,9 @@ Add your content (see structure below)
 Commit with a clear message:
 
 git commit -m "Add PDT calculator for dose calculation"
-
-
 Push and open a Pull Request
 
 📂 Repository Structure
-
 Please place your contribution in the appropriate section:
 
 /docs        → documentation, protocols, explanations
@@ -74,12 +71,9 @@ Please place your contribution in the appropriate section:
 /bots        → chatbots and automation tools
 /forms       → PDFs, templates, clinical forms
 /resources   → links, references, datasets
-
-
 If you are unsure — open an Issue first, we will help.
 
 🏷️ Labels & Issues
-
 We actively use labels to keep things clean:
 
 good first issue — easy tasks for beginners
@@ -99,7 +93,6 @@ help wanted
 Feel free to suggest new labels if needed.
 
 🧠 Medical Responsibility Disclaimer
-
 ⚠️ Important
 
 All materials in this repository are:
@@ -119,7 +112,6 @@ proper sourcing
 clear warnings when required
 
 ✅ Pull Request Guidelines
-
 Please ensure that your PR:
 
 is focused on one clear change
@@ -133,7 +125,6 @@ respects medical accuracy
 Screenshots, formulas, or references are highly appreciated.
 
 🧪 Review & Merge Process
-
 Maintainers review PRs manually
 
 Feedback may be requested
@@ -143,7 +134,6 @@ Once approved, PRs are merged into main
 Be patient — quality matters more than speed 🧘‍♂️
 
 💬 Communication
-
 Use Issues for ideas and questions
 
 Use Discussions for concepts and architecture
@@ -153,7 +143,6 @@ Be respectful and constructive
 We are building this together.
 
 ❤️ Final Words
-
 Photodynamic Therapy is a field where precision, safety, and knowledge matter.
 
 Your contribution helps:
@@ -168,13 +157,3 @@ Thank you for being part of this.
 
 —
 Awesome Photodynamic Therapy (PDT) Team
-
-
----
-
-## Что дальше можем сделать (по желанию)
-
-- шаблон `ISSUE_TEMPLATE.md`
-- шаблон `PULL_REQUEST_TEMPLATE.md`
-- список labels (я прям дам названия)
-- Project Board (To do / In Progress / Review / Merged)
