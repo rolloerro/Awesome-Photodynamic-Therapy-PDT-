@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Telegram-Bots-26A5E4?style=for-the-badge&logo=telegram">
   <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python">
   <img src="https://img.shields.io/badge/Awesome-PDT-success?style=for-the-badge">
-</p>
+</p> 
 
 # 🌟 Awesome Photodynamic Therapy (PDT)
 
