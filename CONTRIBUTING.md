@@ -156,4 +156,4 @@ PDT evolve as a discipline
 Thank you for being part of this.
 
 —
-Awesome Photodynamic Therapy (PDT) Team
+Awesome Photodynamic Therapy (PDT) Team 
