@@ -41,7 +41,7 @@ You can contribute in many ways:
 - clinical reports
 - protocols
 - emergency forms
-
+ 
 ### 🔗 Curated Links
 - scientific papers
 - trusted articles
